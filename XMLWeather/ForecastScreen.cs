@@ -19,13 +19,19 @@ namespace XMLWeather
 
         public void displayForecast()
         {
+
+   
             date1.Text = Form1.days[1].date;
             min1.Text = Form1.days[1].tempLow;
             max1.Text = Form1.days[1].tempHigh;
-
             date2.Text = Form1.days[2].date;
             min2.Text = Form1.days[2].tempLow;
             max2.Text = Form1.days[2].tempHigh;
+            date3.Text = Form1.days[3].date;
+            min3.Text = Form1.days[3].tempLow;
+            max3.Text = Form1.days[3].tempHigh;
+
+
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -35,6 +41,56 @@ namespace XMLWeather
 
             CurrentScreen cs = new CurrentScreen();
             f.Controls.Add(cs);
+        }
+
+        private void ForecastScreen_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void date1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void minLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void date2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void date3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void maxLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

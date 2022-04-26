@@ -7,13 +7,12 @@ namespace XMLWeather
 {
     public class Day
     {
-        public string date, currentTemp, currentTime, condition, location, tempHigh, tempLow, 
-            windSpeed, windDirection, precipitation, visibility;
+        public string date, currentTemp, currentTime, condition, location, tempHigh, tempLow, windSpeed, windDirection, precipitation, visibility, temp;
 
         public Day()
         {
-            date = currentTemp = currentTime = condition = location = tempHigh = tempLow
-                = windSpeed = windDirection = precipitation = visibility = "";
+            date = currentTemp = currentTime = condition = location = tempHigh = tempLow = temp
+                = windSpeed = windDirection = precipitation = visibility = temp = "";
         }
     }
 }

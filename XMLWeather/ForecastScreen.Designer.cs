@@ -95,7 +95,7 @@
             this.minLabel.Size = new System.Drawing.Size(64, 26);
             this.minLabel.TabIndex = 46;
             this.minLabel.Text = " Min:";
-            this.minLabel.Click += new System.EventHandler(this.minLabel_Click);
+           // this.minLabel.Click += new System.EventHandler(this.minLabel_Click);
             // 
             // max1
             // 
@@ -119,7 +119,7 @@
             this.maxLabel.Size = new System.Drawing.Size(63, 26);
             this.maxLabel.TabIndex = 44;
             this.maxLabel.Text = "Max:";
-            this.maxLabel.Click += new System.EventHandler(this.maxLabel_Click);
+           // this.maxLabel.Click += new System.EventHandler(this.maxLabel_Click);
             // 
             // label5
             // 
@@ -145,7 +145,7 @@
             this.date1.Size = new System.Drawing.Size(62, 26);
             this.date1.TabIndex = 64;
             this.date1.Text = "Date";
-            this.date1.Click += new System.EventHandler(this.date1_Click);
+          //  this.date1.Click += new System.EventHandler(this.date1_Click);
             // 
             // date2
             // 
@@ -159,7 +159,7 @@
             this.date2.Size = new System.Drawing.Size(62, 26);
             this.date2.TabIndex = 69;
             this.date2.Text = "Date";
-            this.date2.Click += new System.EventHandler(this.date2_Click);
+          //  this.date2.Click += new System.EventHandler(this.date2_Click);
             // 
             // min2
             // 
@@ -183,7 +183,7 @@
             this.label4.Size = new System.Drawing.Size(64, 26);
             this.label4.TabIndex = 67;
             this.label4.Text = " Min:";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+          //  this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // max2
             // 
@@ -207,7 +207,7 @@
             this.label7.Size = new System.Drawing.Size(63, 26);
             this.label7.TabIndex = 65;
             this.label7.Text = "Max:";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+       //     this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // date3
             // 
@@ -221,7 +221,7 @@
             this.date3.Size = new System.Drawing.Size(62, 26);
             this.date3.TabIndex = 75;
             this.date3.Text = "Date";
-            this.date3.Click += new System.EventHandler(this.date3_Click);
+         //   this.date3.Click += new System.EventHandler(this.date3_Click);
             // 
             // max3
             // 
@@ -245,7 +245,7 @@
             this.label8.Size = new System.Drawing.Size(64, 26);
             this.label8.TabIndex = 73;
             this.label8.Text = " Min ";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
+           // this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // min3
             // 
@@ -269,7 +269,7 @@
             this.label10.Size = new System.Drawing.Size(63, 26);
             this.label10.TabIndex = 71;
             this.label10.Text = "Max:";
-            this.label10.Click += new System.EventHandler(this.label10_Click);
+         //   this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // ForecastScreen
             // 
@@ -297,7 +297,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "ForecastScreen";
             this.Size = new System.Drawing.Size(375, 615);
-            this.Load += new System.EventHandler(this.ForecastScreen_Load);
+        //    this.Load += new System.EventHandler(this.ForecastScreen_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

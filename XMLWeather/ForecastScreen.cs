@@ -43,54 +43,6 @@ namespace XMLWeather
             f.Controls.Add(cs);
         }
 
-        private void ForecastScreen_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void date1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void minLabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void date2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void date3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void maxLabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }

@@ -71,17 +71,17 @@ namespace XMLWeather
             days[0].location = reader.GetAttribute("name");
 
             reader.ReadToFollowing("temperature");
-            days[0].currentTemp = reader.GetAttribute("name");
+            days[0].currentTemp = reader.GetAttribute("value");
 
-            days[0].currentTemp = reader.GetAttribute("max");
+            days[0].tempHigh = reader.GetAttribute("max");
 
-            days[0].currentTemp = reader.GetAttribute("min");
+            days[0].tempLow = reader.GetAttribute("min");
 
             reader.ReadToFollowing("wind");
-            days[0].currentTemp = reader.GetAttribute("name"); 
+            days[0].windDirection = reader.GetAttribute("name"); 
 
             reader.ReadToFollowing("clouds");
-            days[0].currentTemp = reader.GetAttribute("value");
+            days[0].condition = reader.GetAttribute("value");
 
 
         }
